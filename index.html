@@ -6,14 +6,13 @@
   <title>allrecipes &#127828 </title>
   <link href="style.css"/>
   <style>
-    body{
-      background-color: rgb(233, 230, 226);
-      display:inline-flex
-      justify-content: center;
-      align-items:center;
-      min-height: black;  
-
-    
+    .city{
+      float:center;
+      margin: 5px;
+      padding:15px;
+      width: 300px;
+      height: 300px;
+      border:1px solid black;
     }
     header{
       background-image: url("image/7435887_Chef-Johns-Sweet-Potato-Casserole-4x3-7f3e347b6a3345c3abb239651ef1c385.webp");
@@ -27,7 +26,7 @@
     }
     
     h1{
-      color:rgb(15, 12, 3);
+      color:rgb(8, 8, 8);
       padding:50px;
       margin:100px;
       font-weight: 1000;
@@ -35,18 +34,9 @@
       font-display: san serif;
       text-align: center;
     }
-    .strong{
-      color: aqua;
-      font-size: 60px;
-    }
-    strong{
-      font-style:normal;
-      font-display:inherit;
-      font-size: 20px;
-    }
     section{
     background-size: 100% 100%;
-      margin:;
+
       padding:px;
       justify-content: center;
     }
@@ -63,41 +53,43 @@
 
       align-items: center;
       text-decoration: none;
-      color: rgb(189, 34, 34);
+      color: rgb(34, 189, 99);
       font-size: 18px;
       padding: 0.5rem;
       position: relative;
+      
     }
     nav a{
       position: relative;
       display: inline-block;
-      font-size: ;
+      font-size:medium;
     }
 
     a{
       text-decoration: none;
-      color: rgb(8, 8, 8);
+      color: white;
       font-size: 18px;
       padding: 0.5rem;
       position: relative;
       z-index: 1;
       text-size-adjust: 1000px;
+      border-radius: 10%;
+      color:rgb(241, 245, 245);
 
     }
     a::before{
       position: absolute;
-      width: 100%;
-      height: 100%;
       background:none;
-      border-radius: 5px;
+      border-radius: 1%;
       transform: scaleX(0);
       translate: all 0.6s ease;
 
     }
     button{
-      background-color: rgb(240, 178, 240);
-      color: black;
+      background-color: rgb(9, 117, 99);
+      color:white;
       text-decoration-thickness: 10px;
+      border-radius: 13%;
     }
     img{
       border-radius: 10px;
@@ -107,81 +99,226 @@
       justify-content:space-between;
       
     }
+    .hate{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: rgb(34, 189, 99);
+      font-size: 18px;
+      position: relative;
+      justify-content:space-between;
+      padding-inline: 500px;
+    }
 div{
   display: inline-block;
   box-shadow: inset;
 }
-
-
-
-@keyframes mymove{
-  from {top:200px} to {top:200px}
-
-}
-footer{
-  color: rgb(13, 88, 155);
-}
-.love{
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
-}
-.hate{
-  position: relative;
-  animation: mylove 5s infinite;
-}
-@keyframes mylove{
-  from {left:0px} to {left:200px}
-
-}
-li{
+ footer{
+      background-color: rgb(2, 9, 39);
+      color: rgb(13, 88, 155);
+      color: white;
+      width: 100%;
   
-  background-color: aliceblue;
-  position: relative;
-  animation: mylove 20s infinite; 
-}
+      border-radius: 1%;
+ }
+    .footer_container{
+      align-items: center;
+      display:flex;
+      width: 100%;
+      height: auto;
+      
+    }
+    .product{
+  
+      margin: 50px;
+      display: block;
+      width: auto;
+      height: auto;
+    }
+    .cases{
+      padding: 30px;
+      margin: 50px;
+      display: block;
+      width: auto;
+      height: auto;
+    }
+    .Resources{
+      padding: 30px;
+      margin: 50px;
+      display: block;
+      width: auto;
+      height: auto;
+    }
+    .Company{
+      padding: 30px;
+      margin: 50px;
+      display: block;
+      width: auto;
+      height: auto;
+
+    }
+    .Contact_Us{
+      padding: 30px;
+      margin: 50px;
+      display: block;
+      width: auto;
+      height: auto;
+
+    }
+    .footer_logo{
+      margin-left: 20%;
+      padding: 50px;
+      justify-content: space-between;
+      width: auto;
+      height: auto;
+    }
+    .gmail{
+      color: red;
+      padding-left: 100%;
+      padding-top: 100%;
+    }
+
 
   </style>
+ 
 </head>
 <body>
-  <header>
+  <header >
     <nav>
-    <ul>
-      <li><a href="https://www.allrecipes.com/"><strong>HOME</strong></a></li>
-      <li><a href="eyJ2ZXIiOiIxLjAiLCJzdWIiOiJBQUFBQUFBQUFBQUFBQUFBQUFBQUFBcjdPM1VudGtydEN4X3JuT2s0cG1RIiwibmFtZSI6ImFiYWggc2FtdWVsIiwicHJlZmVycmVkX3VzZXJuYW1lIjoic2FtdWVsYWJhaDQxOTZAZ21haWwuY29tIiwib2lkIjoiMDAwMDAwMDAtMDAwMC0wMDAwLWU3YjAtYjU3MGQxMTRiYjc1IiwiZW1haWwiOiJzYW11ZWxhYmFoNDE5NkBnbWFpbC5jb20iLCJ0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQiLCJob21lX29pZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC1lN2IwLWI1NzBkMTE0YmI3NSIsInVpZCI6IjAwMDAwMDAwLTAwMDAtMDAwMC1lN2IwLWI1NzBkMTE0YmI3NSIsInV0aWQiOiI5MTg4MDQwZC02YzY3LTRjNWItYjExMi0zNmEzMDRiNjZkYWQifQ">
-        <strong>LOGIN</strong></a></li>
-      <li>
-        <a
-   href="https://www.allrecipes.com"><strong>MENU</strong></a></li>
-    </ul>
-  </nav>
+      <ul>
+        <a href="#"> <li>HOME</li></a>   
+        <a href="#"> <li>Recipe</li></a>         
+        <a href="#"> <li>About</li></a>         
+        <a href="#"> <li>Contact_Us</li></a>         
+      </ul>
+
+    </nav>
+
+    </div>
   <h1> <strong class="strong">
    allrecipes</strong>
   </h1>
-</header>
+  </header>
 <section>
   <div class="hate">
-  <div><a href="https://www.allrecipes.com"><img src="image/image.png"/ width="300px"height="300
-    px"></a><p><strong>Ham and Butternut Squash Spaghetti</stronng><br><button><a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a></button></br>
-  </p></div>
-  <div><img src="8745645_Holiday-Monkey-Bread_John-Mitzewich_4x3-ae2371c9273542108a23bbcf37024e1c.webp"
-    /
-    width="300px"height="300px";
-  > <p> <strong>Holiday Monkey Bread</strong><br><button><a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a></button></br></p></div>
-  <div><img src="image/1061659_ChefJohnsRoastTurkeyandGravy4x3-1735bd98ef594280a7c01e519973acd1.webp" /width="300px"
-    height="300px"><p><strong>Ham and Butternut Squash Spaghetti</stronng><br><button><a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a></button></br>
-    </p></div>
-  <div><img src="image/7435887_Chef-Johns-Sweet-Potato-Casserole-4x3-7f3e347b6a3345c3abb239651ef1c385.webp"width="300px" height="300px"/><px"><p><strong>Ham and Butternut Squash Spaghetti</stronng><br><button><a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a></button></br>
-  </p></div>
+  <div>
+  <img src="image/image.png"/ width="300px"height="300
+    px"></a><p>
+      <strong>
+        Ham and Butternut Squash Spaghetti
+      </strong>
+      <br>
+      <button>
+        <a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a>
+      </button>
+    </br>
+  </p>
 </div>
+  <div>
+    <img
+   src="8745645_Holiday-Monkey-Bread_John-Mitzewich_4x3-ae2371c9273542108a23bbcf37024e1c.webp"
+    width="300px"height="300px">
+   <p> <strong>Holiday Monkey Bread</strong><br><button><a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a></button></br></p>
+  </div>
+  <div>
+    <img 
+  src="image/1061659_ChefJohnsRoastTurkeyandGravy4x3-1735bd98ef594280a7c01e519973acd1.webp" width="300px"
+    height="300px"/>
+    <p>
+      <strong>
+        Ham and Butternut Squash Spaghetti
+      </strong>
+      <br>
+      <button>
+        <a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a>
+      </button>
+    </br>
+    </p>
+  </div>
+  <div>
+  <img src="image/7435887_Chef-Johns-Sweet-Potato-Casserole-4x3-7f3e347b6a3345c3abb239651ef1c385.webp"width="300px" height="300px"/>
+  <p>
+    <strong>
+    Ham and Butternut Squash Spaghetti
+  </strong>
+  <br>
+  <button>
+    <a href="https://www.allrecipes.com/recipe/221952/ham-and-butternut-squash-spaghetti/">click me</a>
+  </button>
+</br>
+  </p>
+
+
+      </div>
+      </div>
+<!-- 
+    HOME PAGE/FILE
+  -->
+   
 </section>
-  <footer><details>
-    <div class="love">
-<img src="image/image.png" alt="">
+
+<!-- beginning of footer-->
+
+    <footer>
+      <div  class="footer_container">
+      <div class="product">
+        <h2>Product</h2>
+        <p>Landing Page</p>
+        <p>Popup builder</p>
+        <p>Web-design</p>
+        <p>Content</p>
+        <p>Integration</p>
+      </div>
+      <div class="use cases">
+        <h2>Usecases</h2>
+        <p>Web-designer</p>
+        <p>Marketing</p>
+        <p>Small Business</p>
+        <p>Website Builder</p>
+      </div>
+      <div class="Resources">
+        <h2>Resources</h2>
+        <p>Academy</p>
+        <p>Blog</p>
+        <p>Theme</p>
+        <p>Hosting</p>
+        <p>Developer</p>
+        <p>Support</p>
+      </div>
+      <div class="Company">
+        <h2>Company</h2>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>FAQs</p>
+        <p>Teams</p>
+        <p>Contant US</p>
+      </div>
+      <div class="Contact_Us">
+        <h2>Contact Us</h2>
+        <p>hello</p>
+        <p>welcome</p>
+      
+      </div>
     </div>
-  </details>
+    <div class="footer_logo">
+    </div>
+     <div class="container">
+
+      <div class="header">
+        <div class="nav_image">
 </footer>
+<div id="image_Text_content"/>
+       <h2>
+        <strong>
+        Delicious &#127828 Just For Your Tast
+      </strong>
+       </h2>
+       <h5>
+        Recipe Information Here <a href="#">Recipe</a>
+       </h5>
+      </div>
+    <p class="gmail">name@gmail.come</p> 
 </body>
 </html>
